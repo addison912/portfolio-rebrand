@@ -1,0 +1,13 @@
+header {
+  width: 100%;
+  height: 512px;
+  background-image: url("/assets/projects/multicam/multicam.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 32px;
+}
+
+#title-multicam {
+  top: 415px;
+  left: -163px;
+}
