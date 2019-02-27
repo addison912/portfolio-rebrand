@@ -21,7 +21,12 @@ section {
 }
 
 p {
-  margin: 0;
+  margin: 0 0 20px 0;
+  max-width: 700px;
+}
+
+.project p {
+  max-width: 400px;
 }
 
 ul {
@@ -29,6 +34,7 @@ ul {
   padding: 0;
   margin-right: 24px;
   margin-top: 0;
+  min-width: 200px;
 }
 
 a {
@@ -148,4 +154,24 @@ textarea:focus {
 #myEmail,
 .resume span {
   text-decoration: underline;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 72px;
+  background-color: black;
+}
+
+footer p {
+  color: white;
+}
+
+.social-icon {
+  height: 24px;
+  width: 24px;
+  /* background: whitesmoke; */
+  border-radius: 50%;
 }
