@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="/css/normalize.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="/css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="/css/slick-theme.css" />
     <link rel="stylesheet" href="/css/main.css" type="text/css" />
     <link rel="stylesheet" href="/css/project.css" type="text/css" />
     <title>Plate Tracker</title>
@@ -24,9 +26,29 @@
           license plate is scanned.
         </div>
       </section>
+      <section>
+        <h3 class="section-title">Stack</h3>
+        <div class="section-body">
+          <ul>
+            <li>React-Native</li>
+            <li>OpenALPR</li>
+            <li>React-Native-Paper</li>
+          </ul>
+          <ul>
+            <li>MongoDB</li>
+            <li>Express</li>
+            <li>Node.js</li>
+          </ul>
+          <ul>
+            <li>JWT</li>
+            <li>BCyrpt</li>
+            <li>MLab</li>
+          </ul>
+        </div>
+      </section>
       <section class="gallery">
         <div id="plate-scan">
-          <video id="plate-scan-vid" width="352" height="720" autoplay loop>
+          <video id="plate-scan-vid" width="300" height="600" autoplay loop>
             <source
               src="/assets/projects/plate-tracker/plate-tracker.mp4"
               type="video/mp4"
@@ -34,33 +56,78 @@
             browser does not support the video tag.
           </video>
         </div>
-        <div class="images">
-          <img
-            src="/assets/projects/multicam/multicam2.gif"
-            alt="Multicam GIF"
-          />
-          <img
-            src="/assets/projects/multicam/multicam3.gif"
-            alt="Multicam GIF"
-          />
-          <img
-            src="/assets/projects/multicam/MultiCam_0.jpg"
-            alt="Multicam GIF"
-          />
-          <img
-            src="/assets/projects/multicam/MultiCam_1.jpg"
-            alt="Multicam GIF"
-          />
-          <img
-            src="/assets/projects/multicam/multicam4.gif"
-            alt="Multicam GIF"
-          />
-          <img
-            src="/assets/projects/multicam/multicam5.gif"
-            alt="Multicam GIF"
-          />
+      </section>
+      <section>
+        <h3 class="section-title">Inspiration</h3>
+        <div class="section-body">
+          I was inspired to build this app when my own motorcyle was stolen. I
+          searched the internet for online communities that could support me in
+          recovering my vehicle. I found many Facebook pages and bulletin boards
+          fractured across the internet where people were posting their stolen
+          vehicles and reporting suspicious vehicles but nowhere that all the
+          information was shared. There are over 750,000 vehicles stolen in the
+          US every year. Until now there was no central resource for people to
+          share stolen vehicle information.
         </div>
       </section>
+      <section class="slider-wrapper">
+        <div class="plate-tracker-slider">
+          <div>
+            <img
+              src="/assets/projects/plate-tracker/plate-tracker-1.jpg"
+              alt="Plate Tracker Screenshot"
+            />
+          </div>
+          <div>
+            <img
+              src="/assets/projects/plate-tracker/plate-tracker-2.jpg"
+              alt="Plate Tracker Screenshot"
+            />
+          </div>
+          <div>
+            <img
+              src="/assets/projects/plate-tracker/plate-tracker-3.jpg"
+              alt="Plate Tracker Screenshot"
+            />
+          </div>
+          <div>
+            <img
+              src="/assets/projects/plate-tracker/plate-tracker-4.jpg"
+              alt="Plate Tracker Screenshot"
+            />
+          </div>
+          <div>
+            <img
+              src="/assets/projects/plate-tracker/plate-tracker-5.jpg"
+              alt="Plate Tracker Screenshot"
+            />
+          </div>
+          <div>
+            <img
+              src="/assets/projects/plate-tracker/plate-tracker-6.jpg"
+              alt="Plate Tracker Screenshot"
+            />
+          </div>
+        </div>
+      </section>
+      <section>
+        <h3 class="section-title">Features</h3>
+        <div class="section-body">
+          Plate Tracker allows users to log in and create a profile. Users can
+          add a vehicle to their profile and set whether or not they'd like to
+          receive notifications about stolen vehicles in their area. They can
+          create public posts about their vehicles or suspicious vehicles an
+          they can share tips about vehicle theft prevention and recovery.
+        </div>
+      </section>
+
+      <section>
+        <h3 class="section-title">Github</h3>
+        <a class="link" href="https://github.com/addison912/PlateTracker"
+          ><span>Plate Tracker</span><img class="pdf" src="/assets/github.png"
+        /></a>
+      </section>
     </main>
+    <script type="text/javascript" src="/js/plate-tracker.js"></script>
   </body>
 </html>

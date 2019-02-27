@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+section {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-right: 24px;
+  margin-top: 0;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #333;
+}
+
+.section-title {
+  width: 25%;
+  text-align: right;
+  padding-right: 24px;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.section-body {
+  width: 75%;
+  display: flex;
+  text-align: left;
+  padding-right: 12%;
+}
+
+.avatar {
+  margin: 50px 0 24px 25%;
+  border-radius: 50%;
+  height: 128px;
+  width: 128px;
+  border: 1px solid black;
+}
+
+.title {
+  transform: rotate(90deg);
+  position: absolute;
+  left: -280px;
+  top: 480px;
+  font-family: "Avenir Next Condensed", Arial, Helvetica, sans-serif;
+  font-size: 90px;
+  color: #ffd952;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.project-title {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.project,
+.contact p {
+  margin-bottom: 0.75em;
+}
+
+.project span:hover {
+  background-color: #ffe992;
+}
+
+input,
+textarea {
+  margin-bottom: 6px;
+  padding: 6px;
+  width: 375px;
+  border: solid #333 0.5px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  color: #ffd952;
+  background-color: black;
+  padding: 6px;
+  width: 300;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+textarea {
+  resize: none;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+#myEmail:hover,
+.resume span:hover {
+  cursor: pointer;
+  background-color: #ffe992;
+}
+#clippy:hover,
+.resume a :hover {
+  cursor: pointer;
+}
+
+#clippy {
+  vertical-align: -2px;
+  height: 16px;
+  width: 16px;
+}
+
+.pdf {
+  vertical-align: -3px;
+  height: 20px;
+  margin-left: 2px;
+}
+
+#myEmail,
+.resume span {
+  text-decoration: underline;
+}

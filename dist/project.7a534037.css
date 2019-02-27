@@ -1,0 +1,119 @@
+.hero {
+  width: 100%;
+  height: 350px;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 32px;
+}
+
+.gallery {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.images {
+  margin: 36px auto;
+  width: 1212px;
+  column-gap: 4px;
+  column-count: 3;
+}
+
+.images img {
+  width: 400px;
+}
+
+.link {
+  text-decoration: underline;
+}
+.link span:hover {
+  cursor: pointer;
+  background-color: #ffe992;
+}
+
+/*////////////// MULTICAM //////////////*/
+
+#multicam-hero {
+  background-image: url("multicam.4e318254.png");
+}
+
+#title-multicam {
+  top: 300px;
+  left: -163px;
+}
+
+.video {
+  width: 100%;
+  margin: 0 0 0 25%;
+}
+
+iframe {
+  background: black;
+}
+
+/*////////////// MULTICAM //////////////*/
+/*////////////// PLATE TRACKER //////////////*/
+
+#plate-tracker-hero {
+  background-image: url("plate-tracker-hero.5f8bd620.png");
+}
+
+#title-plate-tracker {
+  top: 585px;
+  left: -245px;
+}
+
+#plate-scan-vid {
+  background: #000;
+}
+
+#plate-scan {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.slider-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.plate-tracker-slider {
+  width: 100%;
+}
+
+.plate-tracker-slider img {
+  width: 91.66%;
+  margin: 0px auto;
+}
+
+.slick-arrow {
+  background: black;
+  border-radius: 50%;
+}
+
+/*////////////// PLATE TRACKER //////////////*/
+
+@media only screen and (max-width: 1212px) {
+  .images {
+    margin: 36px auto;
+    width: 808px;
+    column-gap: 4px;
+    column-count: 2;
+  }
+  .video {
+    display: flex;
+    justify-content: center;
+    margin: 0 0;
+  }
+}
+
+@media only screen and (max-width: 808px) {
+  .images {
+    margin: 36px auto;
+    width: 400px;
+    column-gap: 0;
+    column-count: 1;
+  }
+}

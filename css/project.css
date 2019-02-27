@@ -20,8 +20,15 @@
 }
 
 .images img {
-  height: 400px;
   width: 400px;
+}
+
+.link {
+  text-decoration: underline;
+}
+.link span:hover {
+  cursor: pointer;
+  background-color: #ffe992;
 }
 
 /*////////////// MULTICAM //////////////*/
@@ -52,7 +59,7 @@ iframe {
 }
 
 #title-plate-tracker {
-  top: 340px;
+  top: 585px;
   left: -245px;
 }
 
@@ -64,6 +71,26 @@ iframe {
   display: flex;
   justify-content: center;
   width: 100%;
+}
+
+.slider-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.plate-tracker-slider {
+  width: 100%;
+}
+
+.plate-tracker-slider img {
+  width: 91.66%;
+  margin: 0px auto;
+}
+
+.slick-arrow {
+  background: black;
+  border-radius: 50%;
 }
 
 /*////////////// PLATE TRACKER //////////////*/
