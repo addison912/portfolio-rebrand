@@ -1,6 +1,6 @@
 new ClipboardJS("#myEmail");
 new ClipboardJS("#clippy");
-
+console.log("here");
 let myEmail = document.getElementById("myEmail");
 myEmail.addEventListener("mouseup", copyEmail);
 document.getElementById("clippy").addEventListener("mouseup", copyEmail);

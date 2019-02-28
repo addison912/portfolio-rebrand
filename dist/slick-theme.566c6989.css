@@ -1,7 +1,7 @@
 @charset 'UTF-8';
 /* Slider */
 .slick-loading .slick-list {
-  background: #fff url("ajax-loader.44430101.gif") center center no-repeat;
+  background: #fff url("ajax-loader.c85c1f0f.gif") center center no-repeat;
 }
 
 /* Icons */
@@ -10,11 +10,11 @@
   font-weight: normal;
   font-style: normal;
 
-  src: url("slick.0a9460f8.eot");
-  src: url("slick.0a9460f8.eot?#iefix") format("embedded-opentype"),
-    url("slick.66446cbf.woff") format("woff"),
-    url("slick.46eded50.ttf") format("truetype"),
-    url("slick.ba5cb256.svg#slick") format("svg");
+  src: url("slick.045c4017.eot");
+  src: url("slick.045c4017.eot?#iefix") format("embedded-opentype"),
+    url("slick.94a7f66a.woff") format("woff"),
+    url("slick.b9dba7ae.ttf") format("truetype"),
+    url("slick.4b827cfa.svg#slick") format("svg");
 }
 /* Arrows */
 .slick-prev,
