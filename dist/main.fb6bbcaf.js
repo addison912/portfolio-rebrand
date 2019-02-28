@@ -113,7 +113,7 @@ document.getElementById("clippy").addEventListener("mouseup", copyEmail);
 
 function copyEmail() {
   var myEmail = document.getElementById("myEmail");
-  myEmail.innerHTML = "Copied to clipboard!";
+  myEmail.innerHTML = "<span id='copied'>Copied to clipboard!<span>";
   var reset = setInterval(function () {
     myEmail.innerHTML != "Copied to clipboard!" ? window.clearInterval(reset) : null;
     myEmail.innerHTML = "addisondrewmoore@gmail.com";
@@ -146,7 +146,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61445" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63576" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
