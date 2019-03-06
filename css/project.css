@@ -27,11 +27,27 @@
 }
 .link span:hover {
   cursor: pointer;
-  background-color: #ffe992;
+  background-color: #ffd952;
 }
 
 .main-section {
   margin: 80px 0;
+}
+
+.next-project {
+  justify-content: center;
+  align-items: center;
+}
+
+.next-link {
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: solid black 1px;
+}
+
+.next-link:hover {
+  background: #ffd852;
+  transition: 0.33s ease-in-out;
 }
 
 /*////////////// MULTICAM //////////////*/
