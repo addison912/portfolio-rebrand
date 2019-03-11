@@ -176,7 +176,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"/Users/addisonmoore/Google_Drive/_web-projects/portfolio-site/assets/projects/multicam/multicam.png":[["multicam.4e318254.png","assets/projects/multicam/multicam.png"],"assets/projects/multicam/multicam.png"],"/Users/addisonmoore/Google_Drive/_web-projects/portfolio-site/assets/projects/plate-tracker/plate-tracker-hero.png":[["plate-tracker-hero.5f8bd620.png","assets/projects/plate-tracker/plate-tracker-hero.png"],"assets/projects/plate-tracker/plate-tracker-hero.png"],"_css_loader":"../../../../../usr/local/lib/node_modules/parcel/src/builtins/css-loader.js"}],"../../../../../usr/local/lib/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"/Users/addisonmoore/Google_Drive/_web-projects/portfolio-site/assets/projects/multicam/multicam.png":[["multicam.4e318254.png","assets/projects/multicam/multicam.png"],"assets/projects/multicam/multicam.png"],"/Users/addisonmoore/Google_Drive/_web-projects/portfolio-site/assets/projects/plate-tracker/plate-tracker-hero.png":[["plate-tracker-hero.5f8bd620.png","assets/projects/plate-tracker/plate-tracker-hero.png"],"assets/projects/plate-tracker/plate-tracker-hero.png"],"/Users/addisonmoore/Google_Drive/_web-projects/portfolio-site/assets/projects/east-bay-gems/east-bay-gems.png":[["east-bay-gems.9806b535.png","assets/projects/east-bay-gems/east-bay-gems.png"],"assets/projects/east-bay-gems/east-bay-gems.png"],"_css_loader":"../../../../../usr/local/lib/node_modules/parcel/src/builtins/css-loader.js"}],"../../../../../usr/local/lib/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -203,7 +203,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52443" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59049" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
