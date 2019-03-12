@@ -27,8 +27,8 @@ app.get("/plate-tracker.html", function(req, res) {
   res.sendFile("views/plate-tracker.html", { root: __dirname });
 });
 
-//run server on port 3000
-const port = 3000;
+//run server on port 8080
+const port = 8080;
 
 app.listen(process.env.PORT || port, function() {
   console.log(`portfolio app listening at ${process.env.PORT || port}`);

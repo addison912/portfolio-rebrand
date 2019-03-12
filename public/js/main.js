@@ -1,6 +1,17 @@
 new ClipboardJS("#myEmail");
 new ClipboardJS("#clippy");
-console.log("here");
+
+console.log(
+  `%c  _    _ _____ _____  ______   __  __ ______ _ 
+ | |  | |_   _|  __ \\|  ____| |  \\/  |  ____| |
+ | |__| | | | | |__) | |__    | \\  / | |__  | |
+ |  __  | | | |  _  /|  __|   | |\\/| |  __| | |
+ | |  | |_| |_| | \\ \\| |____  | |  | | |____|_|
+ |_|  |_|_____|_|  \\_\\______| |_|  |_|______(_)                                            
+ `,
+  "font-family:monospace"
+);
+
 let myEmail = document.getElementById("myEmail");
 myEmail.addEventListener("mouseup", copyEmail);
 document.getElementById("clippy").addEventListener("mouseup", copyEmail);
