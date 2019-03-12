@@ -10,13 +10,6 @@
   "author": "Addison Moore <addisondrewmoore@gmail.com>",
   "license": "ISC",
   "dependencies": {
-<<<<<<< HEAD
     "express": "^4.16.4"
-=======
-    "clipboard": "^2.0.4",
-    "jquery": "^3.3.1",
-    "parcel": "^1.12.0",
-    "slick-carousel": "^1.8.1"
->>>>>>> b19209ee67641ea81475eba2ef9bbe0a3e347aab
   }
 }
