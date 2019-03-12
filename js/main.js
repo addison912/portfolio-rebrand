@@ -7,11 +7,13 @@ document.getElementById("clippy").addEventListener("mouseup", copyEmail);
 
 function copyEmail() {
   let myEmail = document.getElementById("myEmail");
-  myEmail.innerHTML = "<span id='copied'>Copied to clipboard!<span>";
+  myEmail.classList.remove("copy");
+  myEmail.innerHTML = "Copied to clipboard!";
   let reset = setInterval(() => {
-    myEmail.innerHTML != "Copied to clipboard!"
-      ? window.clearInterval(reset)
-      : null;
+    if (myEmail.innerHTML != "Copied to clipboard!") {
+      window.clearInterval(reset);
+    }
     myEmail.innerHTML = "addisondrewmoore@gmail.com";
+    myEmail.classList.add("copy");
   }, 1200);
 }

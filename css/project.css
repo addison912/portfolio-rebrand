@@ -114,16 +114,19 @@ iframe {
   left: -244px;
 }
 
-.video {
-  width: 100%;
-  margin: 0 0 0 25%;
-}
-
-iframe {
-  background: black;
-}
-
 /*////////////// EAST BAY GEMS //////////////*/
+/*////////////// LEARNIFY //////////////*/
+
+#learnify-hero {
+  background-image: url("/assets/projects/learnify/learnify.png");
+}
+
+#title-learnify {
+  top: 512px;
+  left: -144px;
+}
+
+/*////////////// LEARNIFY //////////////*/
 
 @media only screen and (max-width: 1212px) {
   .images {
