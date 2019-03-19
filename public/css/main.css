@@ -13,6 +13,7 @@ main {
   display: flex;
   flex-direction: column;
   margin-bottom: 50px;
+  min-width: 350px;
 }
 
 section {
@@ -196,4 +197,22 @@ footer p {
 .social-icon {
   height: 18px;
   width: 18px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .section-body {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .section-body {
+    padding-right: 8%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .section-body {
+    padding-right: 4%;
+  }
 }
