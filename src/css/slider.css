@@ -1,0 +1,32 @@
+.glide_slide {
+  width: max-content;
+}
+
+.slider__arrow {
+  background-color: #818999;
+}
+
+.slider__arrow:hover {
+  background-color: #ed145b;
+}
+
+.slider__arrow--next {
+  right: 1.5rem;
+}
+
+.slider__arrow--prev {
+  left: 1.5rem;
+}
+
+.slider__bullets.glide__bullet {
+  background-color: 255 (100, 100, 100, 0.5);
+}
+
+.slider__bullets.glide__bullet.glide__bullet--active {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.glide__arrow.slider__arrow {
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+}

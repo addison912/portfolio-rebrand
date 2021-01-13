@@ -81,3 +81,6 @@ typings/
 
 # Parcel bundle
 dist
+
+# Miscellaneous
+misc
