@@ -89,7 +89,6 @@ misc
 .DS_Store
 .vscode/
 .cache/
-.parcel-cache/
-.parcel-cache/*
+.parcel-cache
 .env
 coverage/
