@@ -84,3 +84,12 @@ dist
 
 # Miscellaneous
 misc
+
+# My additions
+.DS_Store
+.vscode/
+.cache/
+.parcel-cache/
+.parcel-cache/*
+.env
+coverage/
