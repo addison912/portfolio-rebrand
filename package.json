@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This is my portfolio site. Get in touch if you like what you see!",
   "scripts": {
+    "start": "nodemon index.js",
     "dev": "parcel src/index.html",
     "build": "parcel build --no-cache src/index.html --dist-dir ./build/",
     "clear": "rm -rf .cache/ dist/ .parcel-cache/ ./build"

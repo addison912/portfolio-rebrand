@@ -5,8 +5,10 @@ const express = require("express"),
 require("dotenv").config();
 
 const port = process.env.PORT;
-let build = process.env.BUILD_ENV == "dev" ? "dist" : "build";
-console.log(`${process.env.BUILD_ENV == "dev" ? "Dev" : "Production"} build`);
+let build = process.env.NODE_ENV == "developement" ? "dist" : "build";
+console.log(
+  `${process.env.NODE_ENV == "developement" ? "Dev" : "Production"} build`
+);
 
 console.log(path.join(__dirname, build));
 
