@@ -5,7 +5,7 @@
   "scripts": {
     "start": "nodemon index.js",
     "dev": "parcel src/*.html",
-    "build": "parcel build --no-cache src/index.html --dist-dir ./build/",
+    "build": "parcel build --no-cache src/*.html --dist-dir ./build/",
     "clear": "rm -rf .cache/ dist/ .parcel-cache/ ./build"
   },
   "keywords": [],
