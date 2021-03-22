@@ -151,6 +151,18 @@ iframe {
 }
 
 /*////////////// TRADING PLATFORMS //////////////*/
+/*////////////// FREELANCE //////////////*/
+
+#freelance-hero {
+  background-image: url("../assets/projects/freelance/freelance.png");
+}
+
+#title_freelance {
+  top: 580px;
+  left: -168px;
+}
+
+/*////////////// FREELANCE //////////////*/
 
 @media only screen and (max-width: 1212px) {
   .images {

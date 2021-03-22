@@ -1,5 +1,17 @@
-.glide_slide {
+.glide__slide {
   width: max-content;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-image-wrapper {
+  padding: 12px;
+}
+
+.carousel-image-wrapper img {
+  border-radius: 5px;
+  box-shadow: 0 3px 12px rgb(0 0 0 / 24%);
+  max-height: 700px;
 }
 
 .slider__arrow {
@@ -18,12 +30,16 @@
   left: 1.5rem;
 }
 
-.slider__bullets.glide__bullet {
-  background-color: 255 (100, 100, 100, 0.5);
+.glide__bullets {
+  transform: translate(-50%, 48px);
 }
 
-.slider__bullets.glide__bullet.glide__bullet--active {
-  background-color: rgba(255, 255, 255, 1);
+.slider__bullet.glide__bullet {
+  background-color: rgba(200, 200, 200, 1);
+}
+
+.slider__bullets .glide__bullet.glide__bullet--active {
+  background-color: rgba(100, 100, 100, 1);
 }
 
 .glide__arrow.slider__arrow {
