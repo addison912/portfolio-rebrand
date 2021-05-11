@@ -184,7 +184,7 @@ iframe {
   }
 }
 
-@media only screen and (max-width: 808px) {
+@media only screen and (max-width: 848px) {
   .images {
     margin: 36px auto;
     width: 400px;
