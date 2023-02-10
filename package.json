@@ -11,6 +11,11 @@
   "keywords": [],
   "author": "Addison Moore <addisondrewmoore@gmail.com>",
   "license": "ISC",
+  "staticFiles": {
+    "staticPath": [
+      "robots.txt"
+    ]
+  },
   "dependencies": {
     "@glidejs/glide": "^3.4.1",
     "dotenv": "^8.2.0",
