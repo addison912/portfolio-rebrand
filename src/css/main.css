@@ -119,6 +119,14 @@ a:hover {
   background-color: #ffe992;
 }
 
+.link {
+  text-decoration: underline;
+}
+
+.link:hover {
+  background-color: #ffe992;
+}
+
 input,
 textarea {
   margin-bottom: 6px;
