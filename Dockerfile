@@ -13,6 +13,6 @@ ENV NPM_CONFIG_LOGLEVEL warn
 RUN npm install --omit=dev
 
 # Show current folder structure in logs
-RUN ls -al -R
+# RUN ls -al -R
 
 CMD [ "pm2-runtime", "start", "ecosystem.json" ]

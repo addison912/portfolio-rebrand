@@ -91,6 +91,7 @@ misc
 .cache/
 .parcel-cache
 .env
+.env.*.local
 coverage/
 build
 
