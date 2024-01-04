@@ -14,7 +14,6 @@
     "start:docker": "docker run --name portfolio -p 3232:80 --env-file ./.env.production.local -d portfolio",
     "dev": "cross-env NODE_ENV=development nodemon app.js",
     "build": "npm run build:prod && docker build -t portfolio .",
-    "build:docker": "docker build -t portfolio .",
     "build:dev": "parcel src/*.html",
     "build:prod": "parcel build --no-cache src/*.html --dist-dir ./build/",
     "clear": "rm -rf .cache/ dist/ .parcel-cache/ ./build"
