@@ -94,5 +94,6 @@ misc
 .env.*.local
 coverage/
 build
+archive/
 
 resumes

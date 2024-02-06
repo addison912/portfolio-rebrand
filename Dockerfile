@@ -1,4 +1,4 @@
-FROM keymetrics/pm2:16-buster
+FROM keymetrics/pm2:18-buster
 
 # Bundle APP files
 COPY build build/
