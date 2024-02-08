@@ -10,7 +10,7 @@
     ]
   },
   "scripts": {
-    "start": "npm run build && docker compose up -d",
+    "start": "npm run build && docker compose build && docker compose up -d",
     "start:docker": "docker run --name portfolio -p 3232:80 --env-file ./.env.production.local -d portfolio",
     "dev": "cross-env NODE_ENV=development nodemon app.js",
     "build:dev": "parcel src/*.html",
