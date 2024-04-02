@@ -2,7 +2,7 @@ FROM keymetrics/pm2:18-buster
 
 # Bundle APP files
 WORKDIR /usr/src/app
-COPY build build/
+COPY build .
 COPY app.js .
 COPY config.js .
 COPY package.json .

@@ -5,8 +5,8 @@ const express = require("express"),
 
 require("dotenv").config();
 
-let build = process.env.NODE_ENV == "production" ? "build" : "dist";
-console.log(`${process.env.NODE_ENV} build`);
+let build = NODE_ENV == "production" ? "build" : "dist";
+console.log(`${NODE_ENV} build`);
 
 console.log(path.join(__dirname, build));
 
